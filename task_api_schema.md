@@ -9,7 +9,7 @@ API URL: Request:POST http://localhost:7072/api/task
 
 Note: The domain will be changed once after the deployment of the API's
 
-Request Body
+##### Request Body
 ------------
 ```
 {
@@ -24,21 +24,22 @@ Request Body
 
 ##### Response 
 --------
-
+```
 200 Ok with Task created successfully
-
+```
 ##### Error 
 -----
-
-500: internal server error
+```
+500: internal server error <br>
 400: bad request
+```
 
 #### Get Task:
 =========
 ```
 API URL: Request:GET http://localhost:7072/api/task
 ```
-
+Note: The domain will be changed once after the deployment of the API's
 ##### Response
 ---------
 200 Ok
@@ -54,15 +55,16 @@ API URL: Request:GET http://localhost:7072/api/task
 ##### Error 
 -----
 ```
-500: internal server error
+500: internal server error <br>
 400: bad request
 ```
 
 #### Delete Task:
 ===========
-
+```
 API URL: Request:DELETE http://localhost:7072/api/task
-
+```
+Note: The domain will be changed once after the deployment of the API's
 ##### Request body:
 -------------
 ```
@@ -73,11 +75,13 @@ API URL: Request:DELETE http://localhost:7072/api/task
 
 ##### Response
 --------
-
+```
 204 : content not found
+```
 
 ##### Error 
 -----
-
-500: internal server error
+```
+500: internal server error <br>
 400: bad request
+```
