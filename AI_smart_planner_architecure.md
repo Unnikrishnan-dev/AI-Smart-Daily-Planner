@@ -50,7 +50,7 @@ AI smart Planner/                    # Root project folder
 └──README.md                        # Project documentation
 ```
 
-Example code snippete of the above architecure <br>
+Example code Snippet of the above architecure in server.js <br>
 
 ```json
 // Server.js
@@ -73,5 +73,6 @@ app.use("/api/users", userRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+
 
 ```
