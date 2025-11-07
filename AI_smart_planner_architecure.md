@@ -33,7 +33,7 @@ AI smart Planner/                    # Root project folder
 ├── frontend/                        # Angular application
 │   ├── src/
 │   │   ├── app/                     # Main Angular app folder
-│   │   │   ├── components/          # Reusable UI components
+│   │   │   ├── layout/              # Layouts like sidebar, header, footer
 │   │   │   ├── pages/               # Application pages (views)
 │   │   │   ├── services/            # API and data services
 │   │   │   ├── guards/              # Route guards (auth protection)
@@ -76,3 +76,4 @@ app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 
 
 ```
+
